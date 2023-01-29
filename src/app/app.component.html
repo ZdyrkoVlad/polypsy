@@ -1,0 +1,63 @@
+<div class="row-container lg:h-[55vh] h-[45vh]">
+  <div class="hidden lg:flex flex-row justify-between ">
+    <div class="flex flex-row items-center gap-2">
+      <img class="nav-logo" src="assets/logos/tit-icon.svg">
+      <div class="text-2xl font-bold ">Polypsy</div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">{{language}}</button>
+      <div class="dropdown-content">
+        <div class="drop-op" (click)="changeLanguage('EN')">EN</div>
+        <div class="drop-op" (click)="changeLanguage('UA')">UA</div>
+        <div class="drop-op" (click)="changeLanguage('RU')">RU</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="flex flex-row padding-to-nav items-center justify-center lg:h-full">
+    <div class="text-center">
+      <div class="waviy main-h inline-block">
+        <span style="--i:1">C</span>
+        <span style="--i:2">o</span>
+        <span style="--i:3">m</span>
+        <span style="--i:4">i</span>
+        <span style="--i:5">n</span>
+        <span style="--i:6">g</span>
+        <span style="--i:7">_</span>
+        <span style="--i:8">s</span>
+        <span style="--i:9">o</span>
+        <span style="--i:10">o</span>
+        <span style="--i:11">n</span>
+        <span style="--i:12">.</span>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="flex flex-row justify-center lg:pt-0 pt-20">
+  <div class="!p-8 flex flex-row justify-between  pb-16 align-middle lg:w-1/2 w-full">
+    <div class="w-full">
+      <div class="text-2xl font-bold">  {{"CONTACT_INFO.TITLE" | translate}}</div>
+      <p class="h2-subtitle pt-4">
+        {{"CONTACT_INFO.ADDRESS_INFO" | translate}}
+      </p>
+      <p class="h2-subtitle pt-2">   {{"CONTACT_INFO.EMAIL_INFO" | translate}}</p>
+      <hr/>
+    </div>
+
+  </div>
+</div>
+
+<div class="text-center lg:pb-2">
+  <div class=" lg:flex hidden  flex-row items-center justify-center gap-2 pb-4 text-gray-400">
+    <img class="nav-logo" src="assets/logos/tit-icon.svg">
+    <div class="text-xl font-medium">Polypsy, Limited Liability Company</div>
+  </div>
+  <div class="pb-4 text-gray-400">
+    © {{presentYear}} Polypsy LLC, all rights reserved.
+  </div>
+</div>
