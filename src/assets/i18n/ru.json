@@ -2,6 +2,8 @@
   "CONTACT_INFO": {
     "TITLE": "Контакты",
     "ADDRESS_INFO": "Адрес: ул. Саксаганского 13, офис 1, Киев, 01033, Украина",
-    "EMAIL_INFO": "Email: polypsy@ukr.net"
+    "EMAIL_INFO": "Email: polypsy@ukr.net",
+    "PRIVACY_POLICY": "Политика конфиденциальности",
+    "TERMS_OF_USE": "Условия эксплуатации"
   }
 }
